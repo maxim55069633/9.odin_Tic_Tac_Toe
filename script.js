@@ -199,6 +199,7 @@ const game_controller = (
 
             if (_winner_sum !== 3 
                 && 
+                // How to make use of array filter?
                 gameboard.board_record.filter(
                     (item)=>{ if (item === "") return true; else return false; }
                 ).length === 0 
@@ -245,6 +246,7 @@ const game_controller = (
         };
 
 
+        // How to reload a page?
         const restart=()=>{
             const restart_button=document.querySelector(".new_game");
             restart_button.addEventListener('click',
@@ -254,6 +256,7 @@ const game_controller = (
 
         // Unbeatable AI
 
+        // Understand I should duplicate an array when it works as an argument to be passed to a function.
         const duplicate_record = (current_record)=>{
 
             let test_record = Array.from({length: 3 * 3}).fill("");
