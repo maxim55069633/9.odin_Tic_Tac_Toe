@@ -1,6 +1,6 @@
 # Odin-Tic_Tac_Toe
 
-[Live preview](https://maxim55069633.github.io/odin-Tic_Tac_Toe/)
+[Live preview](https://maxim55069633.github.io/9.odin_Tic_Tac_Toe/)
 
 In this project, I created an interactive game Tic Tac Toe. I implemented the concepts of "Factory Function" and "The Module Pattern" to use the global code as little as possible. 
 
