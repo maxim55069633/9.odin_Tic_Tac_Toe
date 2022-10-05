@@ -55,10 +55,14 @@ body{
 	flex-wrap: wrap;
 }
 .description{
+
+	margin:10px;
+
 	flex:1;
 
 	display: flex;
 	flex-direction: column;
+	gap: 10px;
 	justify-content: space-around;
 
 	align-items: flex-start;
@@ -70,22 +74,36 @@ body{
 	font-size: 20vh;
 }
 
+.description>h2{
+	font-size: 5vh;
+}
+
 .description>p{
 	font-size: 5vh;
 }
 
 .prompt_line{
-
+	display: inline-block;
 	padding: 20px;
 	border: none;
 	background-color: red;
 	color:white;
 	border-radius: 15px;
+	font-size: 5vh;
+
+	width: 100%;
+}
+
+
+.button_flex{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	gap: 10px;
 }
 
 .new_game{
-
-	display: inline-block;
+	flex: 1;
 
 	padding: 20px;
 	border: none;
@@ -93,6 +111,19 @@ body{
 	color:white;
 	border-radius: 15px;
 	font-size: 5vh;
+
+}
+
+.unbeatable_ai{
+	flex: 1;
+
+	padding: 20px;
+	border: none;
+	background-color: blue;
+	color:white;
+	border-radius: 15px;
+	font-size: 5vh;
+
 }
 
 
@@ -130,4 +161,9 @@ body{
 
 .tie{
 	background-color: orange;
+}
+
+.bold{
+	font-weight: bold;
+	color:red;
 }
