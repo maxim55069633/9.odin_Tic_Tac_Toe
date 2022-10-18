@@ -366,6 +366,7 @@ const game_controller = (
             }
 
             // Is it a Tie?
+            // make use of a filter
             if (_winner_sum !== 3 
                 && 
                 current_record.filter(
